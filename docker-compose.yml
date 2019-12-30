@@ -1,0 +1,16 @@
+version: "3.2"
+services:
+  node:
+    image: node:13.4
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: install
+  katacoda:
+    image: node:13.4
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint:
+      - node
+      - node_modules/.bin/katacoda
