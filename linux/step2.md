@@ -1,4 +1,4 @@
-You will often need to show the contents of files and edit them.
+You will often need to create/edit files and show the contents of files.
 There are several ways in linux to do this.
 
 ## Showing files
@@ -29,3 +29,21 @@ To exit the the editor you type `:q`
 You can also combine both to one command: `:wq`{{execute}}
 
 Use `ls -l` to see that your file exists.
+
+## Bash redirection
+In scripts you will often find the characters `>>` or `>`  
+You can use these to redirect output to a file.
+
+We will use these shortcuts to quickly create files:
+
+`echo "test1" >> test1.txt`{{execute}}
+`echo "test2" >> test1.txt`{{execute}}
+
+Use `cat` to show the contents of test1.txt  
+You will see that test1.text is created and `test1` and `test2` is appended to the file
+ 
+`echo "test" > test1.txt`{{execute}}
+Use `cat` to show the contents of test1.txt
+
+You will see that the file is overwritten with `test`
+

@@ -2,7 +2,7 @@ It is important to know who you can navigate on a linux machine by using the com
 
 
 ## Navigating
-When you start a new terminal you will be in a certain directory on the machine.
+When you start a new terminal you will be in a certain directory on the machine.  
 You can see which directory this is by typing:  
 `pwd`{{execute}} (PrintWorkingDirectory)
 
@@ -19,7 +19,7 @@ To see which directories/files are available in this directory you can use:
 
 We often use `ls -l`{{execute}} to get a nice list.
 
-By default files/directories that start with a `.` are not shown.
+By default files/directories that start with a `.` are not shown.  
 Add the `-a` option to show all files/directories:
 `ls -la`{{execute}} 
 
