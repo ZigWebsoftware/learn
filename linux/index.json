@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Editing files",
         "text": "step1.md"
       },
       {
@@ -31,6 +31,7 @@
       }
     ],
     "intro": {
+      "courseData": "intro.sh",
       "text": "intro.md"
     },
     "finish": {
