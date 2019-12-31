@@ -1,6 +1,6 @@
 {
   "title": "Linux",
-  "description": "Linux operations",
+  "description": "A scenario to quickly find you way in a terminal. Create/modify/copy/move files, navigate and permissions",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
@@ -14,7 +14,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Moving",
+        "title": "Step 3 - Copy & Move",
         "text": "step3.md"
       },
       {
